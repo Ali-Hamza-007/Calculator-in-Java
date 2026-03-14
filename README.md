@@ -1,37 +1,59 @@
-📱 Java Android Calculator App
-A modern, native Android calculator application built with Java and Material Design. This app provides a clean user interface and reliable arithmetic logic, featuring real-time input handling and edge-to-edge display support. 🚀
+# 📱 Java Android Calculator App
 
-✨ Features
-Core Arithmetic: Support for addition, subtraction, multiplication, and division. ➕ ➖ ✖️ ➗
+A **modern, native Android calculator application** built using **Java and Material Design components**.  
+The application delivers a **clean, responsive user interface with reliable arithmetic logic**, featuring **real-time input handling and edge-to-edge display support** for an immersive mobile experience. 🚀📱
 
-Material UI: Uses MaterialButton for a sleek, modern look and tactile feel. 🎨
+---
 
-Smart Calculation Logic: * AC (All Clear): Reset everything with one tap. 🧹
+## ✨ Features
 
-C (Clear): Backspace functionality to fix typing errors. ⬅️
+### 🔢 Core Arithmetic Operations
+- Supports **Addition, Subtraction, Multiplication, and Division**.  
+- Provides **accurate and instant calculations** for everyday use.  
+➕ ➖ ✖️ ➗  
 
-Zero-Division Protection: Displays an "Error" message to prevent app crashes. 🛡️
+### 🎨 Modern Material UI
+- Built using **MaterialButton components** for a **sleek, modern appearance**.  
+- Ensures **responsive touch feedback and a polished interface** following **Material Design guidelines**. 🎨✨  
 
-Whole Number Formatting: Uses DecimalFormat to hide unnecessary .0 for clean results. 🔢
+### 🧠 Smart Calculation Logic
+- **AC (All Clear):** Instantly resets the entire calculation with a single tap. 🧹  
+- **C (Clear):** Acts as a **backspace function** to remove the last entered character. ⬅️  
+- **Zero Division Protection:** Prevents crashes by displaying an **"Error" message** when attempting division by zero. 🛡️  
+- **Whole Number Formatting:** Uses `DecimalFormat` to **remove unnecessary `.0` values**, keeping results clean and readable. 🔢  
 
-User Experience: * Edge-to-Edge: Fully immersive UI that respects system bars. 📱
+### 📱 Enhanced User Experience
+- **Edge-to-Edge Display:** Fully immersive UI that **respects system bars** for a modern Android look. 📱✨  
+- **Input Validation:** Prevents invalid expressions such as **starting calculations with operators like `*` or `/`**. 🚫  
+- **Real-Time Input Display:** Dynamically updates the calculation screen as the user enters numbers and operators. ⚡  
 
-Validation: Prevents starting an expression with operators like * or /. 🚫
+---
 
-🛠️ Built With
-Language: Java ☕
+## 🛠️ Technology Stack
 
-Framework: Android SDK (AppCompat, Material Components) 🤖
+- **Programming Language:** Java ☕💻  
+- **Framework:** Android SDK *(AppCompat, Material Components)* 🤖📦  
+- **UI Layout:** XML using **MaterialButton** and **TextView** components 🖼️  
+- **Architecture:** View-based design with a **centralized `onClick` event handler** for efficient input processing 📐  
 
-UI Layout: XML with MaterialButton and TextView 🖼️
+---
 
-Architecture: View-based with a centralized onClick handler. 📐
+## 🚀 How It Works (Code Highlights)
 
-🚀 How It Works (Code Highlights)
-This app utilizes a centralized onClick listener to handle all button interactions efficiently:
+### 🎛️ Centralized Button Handling
+The application uses a **single `onClick` listener** to manage all calculator button interactions efficiently.
 
-Input Handling: Dynamically updates the "Solution" screen as you type.
+### ⌨️ Input Handling
+- Updates the **Solution display in real-time** as users type numbers or operators.  
+- Ensures **smooth and responsive input processing**.
 
-Regex Parsing: Splits the input string based on operators to identify numbers.
+### 🔍 Expression Parsing
+- Utilizes **Regular Expressions (Regex)** to **split input strings by arithmetic operators**, enabling accurate extraction of numbers for computation.
 
-Error Prevention: Automatically handles empty inputs and decimal point placement.
+### 🛡️ Error Prevention
+- Handles **empty inputs and invalid expressions** automatically.  
+- Prevents multiple decimal points or misplaced operators to maintain valid calculations.
+
+
+
+⭐ If you like this project, consider **starring the repository**!
